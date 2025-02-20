@@ -25,7 +25,7 @@ h1, h2 {
 }
 
 /* Service Card Styles */
-.service {
+service {
     background: #fff;
     margin-bottom: 20px;
     padding: 20px;
@@ -33,10 +33,10 @@ h1, h2 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.service h3 {
+service h3 {
     margin-top: 0;
 }
 
-.service p {
+service p {
     margin: 10px 0;
 }
