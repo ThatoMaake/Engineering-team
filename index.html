@@ -1,57 +1,90 @@
-!--Dzuni-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Technovas | Home</title>
+    <title>Tech Nova</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-       
-        <nav>
-            <ul> <h1 style="padding: top -200px; ;">TechNova's</h1>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="about.html">About</a></li>
 
-                <li><a href="portafolio.html">Portfolio</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Tech Nova</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">BROWSE TOPICS</a></li>
+                    <li><a href="#">HOW IT WORKS</a></li>
+                    <li><a href="#">FAQS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">PAGES</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section class="hero">s
-        <img src="images/LOGO1.png" alt="Technovas Logo">
-        <h1>Welcome to Technovas</h1>
-        <p>It is innovating technology solutions for a smarter future helps the users to have an easy access to the website.</p>
-        <a href="services.html" class="cta-btn">Explore Our Services</a>
+    <!-- Services Section (Moved to the Top) -->
+    <section class="services">
+        <div class="container">
+            <h2>Discover. Learn. Enjoy</h2>
+            <p>Platform for creatives around the world</p>
+             <!-- Search Bar Section -->
+    <section class="search-bar">
+        <div class="container">
+            <input type="text" id="search-bar" placeholder="Design, Code, Marketing Finance...">
+            <button id="search-btn">Search</button>
+        </div>
     </section>
 
-    <section class="services-preview">
-        <h2>Our Services</h2>
-        <div class="service-cards">
-            <div class="service-card">
-                <h3>Software Development</h3>
-                <p>Custom software solutions for your business needs to be clear for the consumers to understand.</p>
+            <div class="service-item">
+                <h3>Custom Web Design</h3>
+                <p>We build fully customized websites that reflect your brand's identity and goals.</p>
             </div>
-            <div class="service-card">
-                <h3>AI Solutions</h3>
-                <p>Artificial intelligence to transform your processes.</p>
+            <div class="service-item">
+                <h3>Grapic</h3>
+                <p>Your website will look stunning and perform flawlessly on any device, from desktop to mobile.</p>
             </div>
-            <div class="service-card">
-                <h3>Cloud Services</h3>
-                <p>Scalable cloud infrastructure for your business.</p>
+            <div class="service-item">
+                <h3>Logo Design</h3>
+                <p>We ensure your website is optimized for the best logo to improve visibility and presentable.</p>
             </div>
         </div>
     </section>
 
+    <!-- Main Content Section -->
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Innovating the Future of Web Design</h2>
+                <p>We create stunning, functional, and user-friendly websites that make your business stand out.</p>
+                <a href="#" class="cta-btn">Get Started</a>
+            </div>
+        </section>
+
+        <!-- About Section (Moved Below) -->
+        <section class="about">
+            <div class="container">
+                <h2>About Tech Nova</h2>
+                <p>At Tech Nova, we specialize in crafting custom websites designed to elevate your online presence. Whether you're a small business, a startup, or a large enterprise, our team of experts works closely with you to bring your vision to life. From responsive design to intuitive user experiences, we provide tailored solutions that meet your unique needs.</p>
+                <p>Our goal is simple: to create beautiful, functional websites that not only look great but also drive results. With a focus on clean design, performance optimization, and mobile-friendly interfaces, we ensure that your website performs at its best across all platforms and devices.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
     <footer>
-        <p>&copy; 2025 Technovas</p>
+        <div class="container">
+            <p>&copy; 2025 Tech Nova | All Rights Reserved</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
     </footer>
 
-    <script src="script.js"></script>
 </body>
 </html>
